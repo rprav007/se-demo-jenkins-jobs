@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jenkins.plugins.git.AbstractGitSCMSource_-SCMRevisionImpl plugin="git@3.0.1">
+  <head plugin="scm-api@1.3">
+    <name>canary</name>
+  </head>
+  <hash>8da45c2a3ea278032dd747b5e06d45be1cb5153b</hash>
+</jenkins.plugins.git.AbstractGitSCMSource_-SCMRevisionImpl>

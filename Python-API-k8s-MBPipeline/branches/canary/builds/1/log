@@ -1,0 +1,26 @@
+Branch indexing
+ > git rev-parse --is-inside-work-tree # timeout=10
+Setting origin to https://github.com/rprav007/python_api.git
+ > git config remote.origin.url https://github.com/rprav007/python_api.git # timeout=10
+Fetching origin...
+Fetching upstream changes from origin
+ > git --version # timeout=10
+ > git fetch --tags --progress origin +refs/heads/*:refs/remotes/origin/*
+Seen branch in repository origin/canary
+Seen branch in repository origin/master
+Seen branch in repository origin/production
+Seen 3 remote branches
+Cloning the remote Git repository
+Cloning repository https://github.com/rprav007/python_api.git
+ > git init /var/jenkins_home/workspace/n-API-k8s-MBPipeline_canary-C7PAOCCFEY2QPFC5GFQ2QYHY5WWJOE2VGDOZ3Y2GB257MK3OTHTA@script # timeout=10
+Fetching upstream changes from https://github.com/rprav007/python_api.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/rprav007/python_api.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/rprav007/python_api.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/rprav007/python_api.git # timeout=10
+Fetching upstream changes from https://github.com/rprav007/python_api.git
+ > git fetch --tags --progress https://github.com/rprav007/python_api.git +refs/heads/*:refs/remotes/origin/*
+Checking out Revision 8da45c2a3ea278032dd747b5e06d45be1cb5153b (canary)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8da45c2a3ea278032dd747b5e06d45be1cb5153b

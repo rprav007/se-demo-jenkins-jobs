@@ -1,0 +1,24 @@
+Started
+Creating git repository in /var/jenkins_home/caches/git-26af458ae8169aaf55cf5aa807f9f6b4
+ > git init /var/jenkins_home/caches/git-26af458ae8169aaf55cf5aa807f9f6b4 # timeout=10
+Setting origin to https://github.com/rprav007/python_api.git
+ > git config remote.origin.url https://github.com/rprav007/python_api.git # timeout=10
+Fetching & pruning origin...
+Fetching upstream changes from origin
+ > git --version # timeout=10
+ > git fetch --tags --progress origin +refs/heads/*:refs/remotes/origin/* --prune
+Getting remote branches...
+Seen branch in repository origin/canary
+Seen branch in repository origin/master
+Seen branch in repository origin/production
+Seen 3 remote branches
+Checking branch production
+Met criteria
+Scheduled build for branch: production
+Checking branch canary
+Met criteria
+Scheduled build for branch: canary
+Checking branch master
+Does not meet criteria
+Done.
+Finished: SUCCESS
