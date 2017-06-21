@@ -26,7 +26,11 @@
     <daysToKeep>0</daysToKeep>
     <numToKeep>0</numToKeep>
   </orphanedItemStrategy>
-  <triggers/>
+  <triggers>
+    <hudson.triggers.TimerTrigger>
+      <spec>* * * * *</spec>
+    </hudson.triggers.TimerTrigger>
+  </triggers>
   <sources class="jenkins.branch.MultiBranchProject$BranchSourceList" plugin="branch-api@1.11.1">
     <data>
       <jenkins.branch.BranchSource>
