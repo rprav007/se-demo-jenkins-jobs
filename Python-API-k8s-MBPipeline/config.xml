@@ -30,6 +30,11 @@
     <hudson.triggers.TimerTrigger>
       <spec>* * * * *</spec>
     </hudson.triggers.TimerTrigger>
+    <org.jvnet.hudson.plugins.triggers.startup.HudsonStartupTrigger plugin="startup-trigger-plugin@2.8">
+      <spec></spec>
+      <quietPeriod>0</quietPeriod>
+      <runOnChoice>ON_CONNECT</runOnChoice>
+    </org.jvnet.hudson.plugins.triggers.startup.HudsonStartupTrigger>
   </triggers>
   <sources class="jenkins.branch.MultiBranchProject$BranchSourceList" plugin="branch-api@1.11.1">
     <data>
