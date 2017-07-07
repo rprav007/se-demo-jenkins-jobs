@@ -31,7 +31,11 @@
     </org.jvnet.hudson.plugins.triggers.startup.HudsonStartupTrigger>
   </triggers>
   <concurrentBuild>false</concurrentBuild>
-  <builders/>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>helm install hdfs</command>
+    </hudson.tasks.Shell>
+  </builders>
   <publishers/>
   <buildWrappers/>
 </project>
