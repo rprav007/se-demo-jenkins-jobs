@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <project>
+  <actions/>
   <description></description>
   <keepDependencies>false</keepDependencies>
   <properties/>
@@ -23,11 +24,11 @@
   <disabled>false</disabled>
   <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
   <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
-  </triggers>
+  <triggers/>
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>helm install hdfs --set service.namespace=org.csanchez.jenkins.plugins.kubernetes.namespace</command>
+      <command>helm install hdfs</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>
