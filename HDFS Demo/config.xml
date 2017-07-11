@@ -23,12 +23,6 @@
   <disabled>false</disabled>
   <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
   <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
-  <triggers>
-    <org.jvnet.hudson.plugins.triggers.startup.HudsonStartupTrigger plugin="startup-trigger-plugin@2.8">
-      <spec></spec>
-      <quietPeriod>0</quietPeriod>
-      <runOnChoice>ON_CONNECT</runOnChoice>
-    </org.jvnet.hudson.plugins.triggers.startup.HudsonStartupTrigger>
   </triggers>
   <concurrentBuild>false</concurrentBuild>
   <builders>
