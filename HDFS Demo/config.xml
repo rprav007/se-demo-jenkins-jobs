@@ -27,7 +27,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>helm install hdfs --set service.namespace=</command>
+      <command>helm install hdfs --set service.namespace=org.csanchez.jenkins.plugins.kubernetes.namespace</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>
