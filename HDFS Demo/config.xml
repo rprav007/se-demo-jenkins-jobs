@@ -28,7 +28,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>helm install hdfs</command>
+      <command>helm install hdfs --set service.namespace=$pod_namespace</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>
